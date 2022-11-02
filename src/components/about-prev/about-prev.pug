@@ -1,0 +1,15 @@
+mixin about-prev({ prevTitle, title, text, images })
+    section.about__section
+        .about__prev
+            .container
+                h2.about__prev-title= prevTitle
+        .about__content
+            .container
+                h3.about__title= title
+                .about__text
+                    each item in text
+                        - const { p } = item
+                        p= p
+        .about__popup
+            a(class = "about__popup-play" data-flancybox href="https://youtu.be/Nxg6UfofZX0")
+                img(class="about__popup-imgbtn" src = images.src alt = images.alt) 

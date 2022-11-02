@@ -1,0 +1,11 @@
+mixin slider({ slides })
+    section.top
+        .top__inner.wrapper.conteiner-fluid
+            .top__slider
+                each slide in slides
+                    - const { bg , title , text } = slide 
+                    .top__slider-item.swiper-slide
+                        img.top__slider-img(src = bg.src, alt = bg.alt || "images")    
+                        .top__slider-info.conteiner 
+                            h2.top__slider-title= title
+                            p.top__slider-text= text

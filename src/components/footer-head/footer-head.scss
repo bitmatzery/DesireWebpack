@@ -1,0 +1,136 @@
+@import "~@/styles/mixin";
+@import "~@/styles/variables";
+@import "../field/field";
+@import "../footer-nav/footer-nav";
+
+.footer-head {
+  &__inner {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__text {
+    @include font-normal($color: $text-color-haeder, $lh: 24px);
+    margin-top: 17px;
+  }
+
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 0px;
+    margin-left: 100px;
+    width: 549px;
+  }
+
+  &__subscribe {
+    width: 540px;
+
+    &-title {
+      @include font-bold-title($color: $black-title, $lh: 23px);
+      margin-top: 4px;
+      margin-bottom: 14px;
+      font-weight: bold;
+      font-size: $font-size-normal;
+    }
+
+    &-text {
+      margin-bottom: 16px;
+      font-weight: normal;
+      font-size: $font-size-normal;
+      line-height: 24px;
+      max-width: 490px;
+    }
+}
+
+.info-email {
+  font-weight: 600;
+  font-size: 14px;
+  color: $black-title;
+  margin-bottom: 22px;
+  padding-left: 30px;
+  display: inline-block;
+  position: relative;
+
+  &::before {
+    content: "";
+    background-image: url("/components/footer-head/img/envelope.png");
+    position: absolute;
+    top: 6px;
+    left: 0;
+    width: 16px;
+    height: 12px;
+  }
+}
+
+}
+
+@media (max-width: 992px) {
+  .footer-head__nav {
+    justify-content: space-around;
+  }
+  .field__input-form {
+    min-width: 60%;
+}
+}
+
+@media (max-width: 768px) {
+  .footer-head {
+    &__inner {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &__subscribe {
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    &__subscribe-text {
+      max-width: 100%;
+    }
+  }
+
+  .footer-head__nav {
+    justify-content: space-around;
+    margin-left: 0;
+
+    &__items {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  .field__input-form {
+    width: 100%;
+}
+}
+
+@media (max-width: 650px){
+  .field__input-form {
+    width: 100%;
+}
+
+}
+
+@media (max-width: 375px) {
+  .footer-head {
+    &__inner {
+      justify-content: space-between;
+    }
+  }
+
+  .footer-head__nav {
+    margin-left: 50px;
+  }
+
+  .footer-head__field {
+    display: block;
+  }
+
+  .footer-head__field__btn {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}

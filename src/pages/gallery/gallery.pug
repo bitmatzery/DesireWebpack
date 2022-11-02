@@ -1,0 +1,28 @@
+extends ../../layouts/main/main
+//- Подключение components
+include ../../components/header/header
+include ../../components/footer/footer
+
+include ../../components/breadcrumbs/breadcrumbs
+include ../../components/gallery-block/gallery-block
+
+
+block variables
+    -
+        const title = 'Gallery'
+        const keywords = 'gallery'
+        const description = 'Gallery'
+
+block content
+    - const { header, footer, galleryBlock } = require('./gallery.json');
+
+    .wrapper
+        +header(header)
+
+        +breadcrumbs()
+        +gallery-block(galleryBlock)
+
+        +footer(footer)
+
+
+

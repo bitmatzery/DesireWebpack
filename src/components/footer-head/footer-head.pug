@@ -1,0 +1,24 @@
+include ../field/field
+include ../footer-nav/footer-nav
+
+mixin footerHead({ menu })
+  .footer-head
+    .footer-head__inner
+      .footer-head__subscribe
+        .footer-head__subscribe-title Contact US
+        p.footer-head__subscribe-text
+          | Keffiyeh poutine etsy, paleo cray put a bird on it microdosing schlitz you probably occupy
+        a.info-email(href="mailto:ouremailaddress@email.com")
+          | ouremailaddress@email.com
+        .footer-head__subscribe-field
+          +field({
+            name: "email",
+            placeholder: "Subscribe by email",
+            form: true,
+            text: "Send",
+          })
+
+      .footer-head__nav
+        each nav in menu
+          +footerNav(nav)
+

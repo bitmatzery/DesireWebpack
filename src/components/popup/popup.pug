@@ -1,0 +1,10 @@
+mixin popup( { className, classNameBox, imgBG, link, imgBtn } )
+    div(class= className)
+        if (classNameBox)
+            div(class= classNameBox)
+                img(class= imgBG.name src= imgBG.src alt= imgBG.alt) 
+                a(class= link.name data-flancybox href= link.href)
+                    img(class= imgBtn.name src= imgBtn.src alt= imgBtn.alt) 
+        else
+            a(class= link.name data-flancybox href= link.href)
+                img(class= imgBtn.name src= imgBtn.src alt= imgBtn.alt)

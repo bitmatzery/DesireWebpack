@@ -1,0 +1,12 @@
+include ../button/button
+
+mixin comments({ title, avatar, name, data, text })
+    .blog-one__comments
+        h4.blog-one__comments-title= title
+        .blog-one__comments-item
+            img.blog-one__comments-avatar(src= avatar.src, alt= avatar.alt)
+            .blog-one__comments-info
+                p.blog-one__comments-name= name
+                p.blog-one__comments-data= data
+                p.blog-one__comments-text= text
+            +button({nameClass:"blog-one__replay", images:false, text:"Replay"})

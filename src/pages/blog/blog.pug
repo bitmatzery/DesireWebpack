@@ -1,0 +1,38 @@
+extends ../../layouts/main/main
+include ../../components/header/header
+include ../../components/footer/footer
+include ../../components/breadcrumbs/breadcrumbs
+include ../../components/blog-box/blog-box
+include ../../components/blog-block/blog-block
+include ../../components/aside/aside
+include ../../components/blockquote/blockquote
+include ../../components/popup/popup
+include ../../components/article-slider/article-slider
+include ../../components/pagination/pagination
+
+block variables
+    -
+        const title = 'Blog'
+        const keywords = 'blog'
+        const description = 'Blog'
+
+block content
+    - const { header, footer, blogBlock, aside, blockquote, blogBlockInfo1, blogBlockInfo2, popup, slider, pagination } = require('./blog.json');
+    .wrapper
+        +header(header)
+
+        +breadcrumbs()
+        section.blog
+            .container
+                .blog__inner
+                    .blog__items
+                        +blog-box(blogBlock)
+                    +aside(aside)
+                +blockquote(blockquote)
+                .blog__items
+                    +popup(popup)
+                    +blog-box(blogBlockInfo1)
+                    +article-slider(slider)
+                    +blog-box(blogBlockInfo2)
+                    +pagination(pagination)
+    +footer(footer)

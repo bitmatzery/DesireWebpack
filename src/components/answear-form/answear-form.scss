@@ -1,0 +1,69 @@
+@import '~@/styles/main';
+@import '~@/styles/mixin';
+@import '~@/styles/variables';
+
+.blog-one {
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    &__form-title {
+        @include font-normal-title;
+        margin-bottom: 25px;
+        color: $black-title;
+        line-height: 23px;
+    }
+
+    &__form-textarea {
+        width: 100%;
+        border: 1px solid #dfdfdf;
+        border-radius: 24px;
+        padding: 14px 17px;
+        min-height: 125px;
+        margin-bottom: 12px;
+        &::placeholder {
+            color: #a1a1a1;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+        }
+    }
+
+    &__form-input {
+        border: 1px solid #dfdfdf;
+        border-radius: 20px;
+        padding: 6px 17px;
+        margin-bottom: 20px;
+        width: 48%;
+        &::placeholder {
+            color: #a1a1a1;
+            font-family: var(--font-family);
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 27px;
+        }
+    }
+
+    &__form-label {
+        width: 100%;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #a1a1a1;
+    }
+
+    &__form-btn {
+        border: none;
+        background-color: $black-title;
+        color: $white;
+        font-weight: 600;
+        border-radius: 21px;
+        padding: 6px 60px;
+        cursor: pointer;
+    }
+}
+
+.button {
+    height: auto;
+}

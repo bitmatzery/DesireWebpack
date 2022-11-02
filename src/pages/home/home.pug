@@ -1,0 +1,36 @@
+extends ../../layouts/main/main
+include ../../components/header/header
+include ../../components/footer/footer
+include ../../components/slider/slider
+include ../../components/new-collection/new-collection
+include ../../components/collection/collection
+include ../../components/decor/decor
+include ../../components/works-path/works-path
+include ../../components/gallery-block/gallery-block
+include ../../components/blog-box/blog-box
+
+
+
+block variables
+    -
+        const title = 'Home'
+        const keywords = 'home'
+        const description = 'Home'
+
+block content
+    - const { header, footer, slider, newCollection, collection, decor, worksPath, galleryBlock, blogBox } = require('./home.json');
+    .wrapper
+        +header(header)
+
+        +slider(slider)
+        +new-collection(newCollection)
+        +collection(collection)
+        +decor(decor)
+        +works-path(worksPath)
+        +gallery-block(galleryBlock)
+        +blog-box(blogBox)
+
+    +footer(footer)
+
+
+

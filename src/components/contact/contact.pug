@@ -1,0 +1,26 @@
+include ../button/button
+
+
+mixin contact({ title, items })
+    .container
+        h3.contact__title= title
+        ul.contact__social
+            each item in items
+                - const {icon, href} = item 
+                li.contact__social-item
+                    a.contact__social-link(href= href)
+                        img.contact__social-link(src= icon.src, alt= icon.alt)
+
+mixin contact__box({ text, hrefPh, phone, street, city, hrefeM, email })
+    .container
+        .contact__box
+            p.contact__text= text
+            a.contact__phone(href= hrefPh)= phone
+            .contact__st= street
+            .contact__city= city
+            a.contact__info-email(href= hrefeM)= email
+            form.contact__form
+                input.contact__form-input(type="text" placeholder="You name")
+                input.contact__form-input(type="emale" placeholder="You e-male")
+                textarea.contact__form-area(placeholder="Your massage")
+                +button({nameClass:"contact__form-btn", images:false, type:"submit", text:"Send"})

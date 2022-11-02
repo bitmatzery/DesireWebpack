@@ -1,0 +1,13 @@
+include ../button/button
+
+mixin answear-form()
+    form.blog-one__form(action="")
+        h4.blog-one__form-title
+            | Post a Comment
+        textarea.blog-one__form-textarea(placeholder="You comment")
+        input.blog-one__form-input(type="text" placeholder="You name")
+        input.blog-one__form-input(type="emale" placeholder="You e-male")
+        label.blog-one__form-label(for="")
+            input.blog-one__form-labelinput(type="checkbox")
+            |   Remember me
+        +button({nameClass:"blog-one__form-btn", images:false, type:"submit", text:"Submit"})

@@ -1,0 +1,391 @@
+{
+    "header": {
+        "logo": {
+            "src": "img/logo/svg/logo.svg"
+        },
+        "itemsLeft": [
+            {
+                "text": "About",
+                "active": true
+            },
+            {
+                "text": "Gallery",
+                "more": [
+                    {
+                        "text": "Дополнительные пункты"
+                    },
+                    {
+                        "text": "Дополнительные пункты большие"
+                    },
+                    {
+                        "text": "Дополнительные пункты"
+                    }
+                ]
+            }
+        ],
+        "itemsRight": [
+            {
+                "text": "Blog"
+            },
+            {
+                "text": "Contact"
+            }
+        ]
+    },
+    "footer": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ],
+        "menu": [
+            {
+                "items": [
+                    {
+                        "text": "Facebook",
+                        "alt": "facebook_logo",
+                        "src": "image/facebook.svg",
+                        "href": "https://www.facebook.com/",
+                        "social": "facebook"
+                    },
+                    {
+                        "text": "Instagram",
+                        "alt": "instagram_logo",
+                        "src": "image/instagram.svg",
+                        "href": "https://www.instagram.com/",
+                        "social": "instagram"
+                    },
+                    {
+                        "text": "Pinterest",
+                        "alt": "pinterest_logo",
+                        "src": "image/pinterest.svg",
+                        "href": "https://www.pinterest.com/",
+                        "social": "pinterest"
+                    },
+                    {
+                        "text": "WhatsApp",
+                        "alt": "whatsapp_logo",
+                        "src": "image/whatsapp.svg",
+                        "href": "https://www.whatsapp.com/",
+                        "social": "whatsapp"
+                    },
+                    {
+                        "text": "Youtube",
+                        "alt": "youtube_logo",
+                        "src": "image/youtube.svg",
+                        "href": "https://www.youtube.com/",
+                        "social": "youtube"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "text": "Delivery"
+                    },
+                    {
+                        "text": "FAQ"
+                    },
+                    {
+                        "text": "Help"
+                    },
+                    {
+                        "text": "More About Us"
+                    }
+                ]
+            }
+        ]
+    },
+    "footerMobile": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ]
+    },
+    "contactSlider": {
+        "items": [
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-0.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-1.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-2.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-3.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-4.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-5.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-6.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-7.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-8.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-9.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-0.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-1.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-2.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-3.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-4.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-5.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-6.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-7.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-8.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-9.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-0.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-1.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-2.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-3.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-4.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-5.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-6.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-7.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-8.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            },
+            {
+                "images": {
+                    "src": "img/gallery-slider/jpg/gallery-slider-9.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust"
+            }
+        ]
+    },
+    "contact": {
+        "title": "Contact Us",
+        "items": [
+            {
+                "icon": {
+                    "src": "img/social-icons/svg/facebook.svg",
+                    "alt": "facebook"
+                },
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "icon": {
+                    "src": "img/social-icons/svg/instagram.svg",
+                    "alt": "instagram"
+                },
+                "href": "https://www.instagram.com/"
+            },
+            {
+                "icon": {
+                    "src": "img/social-icons/svg/pinterest.svg",
+                    "alt": "pinterest"
+                },
+                "href": "https://www.pinterest.com/"
+            },
+            {
+                "icon": {
+                    "src": "img/social-icons/svg/whatsapp.svg",
+                    "alt": "whatsapp"
+                },
+                "href": "https://www.whatsapp.com/"
+            },
+            {
+                "icon": {
+                    "src": "img/social-icons/svg/youtube.svg",
+                    "alt": "youtube"
+                },
+                "href": "https://www.youtube.com/"
+            }
+        ],
+        "text": "Vexillologist vape microdosing freegan pork belly deep v direct trade cray single-origin coffee street art. Viral shaman mustache master cleanse, pour-over affogato poutine copper mug marfa fanny pack normcore. Lo-fi pop-up banjo portland, echo park hammock",
+        "hrefPh": "tel:+14158297934",
+        "phone": "(415) 829-7934",
+        "street": "725 Green St",
+        "city": "San Francisco, California(CA), 94133",
+        "hrefeM": "mailto:ouremailaddress@email.com",
+        "email": "ouremailaddress@email.com"
+    }
+}

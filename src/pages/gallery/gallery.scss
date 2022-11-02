@@ -1,0 +1,33 @@
+// Подключение стилей components
+@import '~@/styles/main';
+// @import "../header-footer/header-footer";
+@import "~@/components/header/header";
+@import "~@/components/footer/footer";
+@import "~@/components/footer/footer";
+@import "~@/components/breadcrumbs/breadcrumbs";
+@import "~@/components/gallery-block/gallery-block";
+
+.gallery {
+    .gallery__item img {
+        max-height: 1165px;
+    }
+    .gallery__item:nth-child(8) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+}
+
+.rightside-menu {
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+.button {
+    height: auto;
+}

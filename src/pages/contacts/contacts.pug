@@ -1,0 +1,33 @@
+extends ../../layouts/main/main
+include ../../components/header/header
+include ../../components/footer/footer
+include ../../components/breadcrumbs/breadcrumbs
+include ../../components/collection/collection
+include ../../components/map/map
+include ../../components/contact/contact
+include ../../components/contact-slider/contact-slider
+
+
+block variables
+    -
+        const title = 'Contacts'
+        const keywords = 'contacts'
+        const description = 'Contacts'
+
+block content
+    - const { header, footer, contactSlider, contact } = require('./contacts.json');
+    .wrapper
+        +header(header)
+
+        +breadcrumbs()
+        +map()
+        section.contact
+            +contact(contact)
+            +contact__box(contact)
+
+        +contact-slider(contactSlider)
+
+    +footer(footer)
+
+
+

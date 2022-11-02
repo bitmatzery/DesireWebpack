@@ -1,0 +1,47 @@
+@import '~@/styles/main';
+// Подключение стилей components
+@import '~@/components/header/header';
+@import '~@/components/footer/footer';
+@import "~@/components/breadcrumbs/breadcrumbs";
+@import '~@/components/collection/collection';
+@import '~@/components/map/map';
+@import '~@/components/contact/contact';
+@import '~@/components/contact-slider/contact-slider';
+
+.button {
+    height: auto;
+}
+
+@media (max-width: 1700px) {
+    .contact-slider {
+        &__img {
+            width: 100%;
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .contact-slider {
+        &__img {
+            height: 240px;
+        }
+    }
+}
+
+@media (max-width: 540px){
+    .slick-dots li {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contact-slider {
+        &__img {
+            height: 310px;
+        }
+    }
+
+    .slick-dots li {
+        margin: 0 1px;
+    }
+}

@@ -1,0 +1,84 @@
+@import '~@/styles/mixin';
+@import '~@/styles/variables';
+
+.field {
+  &__label {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-weight: bold;
+    font-size: $font-size-small;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $text-color-main;
+    cursor: pointer;
+    gap: 5px;
+  }
+
+  &__input {
+    padding: 6px 10px 6px 18px;
+    border-radius: 21px;
+    background-color: $gray-50;
+    opacity: 0.7;
+    border: 1px solid rgba($black-title, 0.7);
+
+    &::placeholder {
+      height: 18px;
+      font-size: $font-size-normal;
+      color: $transparent_black;
+    }
+
+    &:hover,
+    &:focus {
+      outline: none;
+      border: 1px solid $text-color-translucent;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 24px;
+    }
+  }
+
+  &__input-form {
+    padding: 6px 10px 6px 18px;
+    border-radius: 21px;
+    background-color: $gray-50;
+    opacity: 0.7;
+    border: 1px solid rgba($black-title, 0.7);
+    width: 100%;
+
+
+    &::placeholder {
+      height: 18px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: normal;
+      font-style: normal;
+      font-size: $font-size-normal;
+      color: $transparent_black;
+    }
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: $font-size-small;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: $text-color-main;
+  }
+
+  &__block {
+    display: flex;
+  }
+
+  &__btn { 
+    background: $black-title;
+    border: none;
+    color: #fffff0;
+    border-radius: 21px;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 6px 12px;
+    min-width: 160px ;
+    margin-left: 9px;
+    cursor: pointer;
+  }
+}

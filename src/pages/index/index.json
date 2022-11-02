@@ -1,0 +1,39 @@
+{
+  "buttons": [
+    {
+      "href": "./home.html",
+      "text": "Home",
+      "border": false
+    },
+
+    {
+      "href": "./gallery.html",
+      "text": "Gallery",
+      "border": false
+    },
+
+    {
+      "href": "./about.html",
+      "text": "About",
+      "border": false
+    },
+
+    {
+      "href": "./blog.html",
+      "text": "Blog",
+      "border": false
+    },
+
+    {
+      "href": "./blog-one.html",
+      "text": "Blog-one",
+      "border": false
+    },
+
+    {
+      "href": "./contacts.html",
+      "text": "Contacts",
+      "border": false
+    }
+  ]
+}

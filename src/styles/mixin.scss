@@ -1,0 +1,65 @@
+@import "./variables";
+
+@mixin font-normal($fs: $font-size-normal, $color: $text-color-main, $lh: normal, $fw: normal) {
+  font-family: "OpenSans", sans-serif;
+  font-weight: $fw;
+  font-style: normal;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin font-normal-title($fs: $font-size-normal, $color: $text-color-main, $lh: normal, $fw: 700) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: $fw;
+  font-style: normal;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin font-bold($fs: $font-size-big, $color: $text-color-main, $lh: normal, $fw: bold) {
+  font-family: "OpenSans", sans-serif;
+  font-weight: $fw;
+  font-style: normal;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin font-bold-title($fs: $font-size-big, $color: $text-color-main, $lh: normal, $fw: 700) {
+  font-family: "Montserrat", sans-serif;
+  font-weight: $fw;
+  font-style: normal;
+  font-size: $fs;
+  line-height: $lh;
+  color: $color;
+}
+
+@mixin font-icon($fs: inherit, $color: inherit, $lh: normal, $fw: normal) {
+  display: inline-block;
+  font-family: "Material Icons", sans-serif;
+  font-weight: $fw;
+  font-style: normal;
+  font-feature-settings: "liga";
+  font-size: $fs;
+  line-height: $lh;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  direction: ltr;
+  color: $color;
+}
+
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal) {
+  @font-face {
+    src: url("@fonts/#{$file-path}.woff2") format("woff2"), url("@fonts/#{$file-path}.woff") format("woff"),
+      url("@fonts/#{$file-path}.ttf") format("truetype"), url("@fonts/#{$file-path}.svg##{$file-path}") format("svg");
+    font-family: $font-family;
+    font-weight: $weight;
+    font-style: $style;
+    font-display: swap;
+  }
+}

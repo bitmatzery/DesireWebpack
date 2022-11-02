@@ -1,0 +1,7 @@
+include ../footer-subordinate/footer-subordinate
+include ../footer-head/footer-head
+mixin footer({ social , menu })
+  footer.footer
+    .footer__container  
+      +footerHead({ menu })
+    +footerSubordinate({ social })

@@ -1,0 +1,9 @@
+mixin collection({items})
+    section.collection
+        each item in items
+            - const { images, title, text } = item
+            a.collection__item(href = "#")
+                img.collection__images(src = images.src, alt = images.alt || "images")
+                .collection__info
+                    .collection__info-title= title
+                    .collection__info-text= text

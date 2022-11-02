@@ -1,0 +1,9 @@
+mixin contact-slider({ items })
+    .container-fluid
+        .contact-slider
+            each item in items
+                - const { images, title } = item
+                a.contact-slider__link(href = "#")
+                    img.contact-slider__img(src = images.src, alt = images.alt || "images")
+                    p.contact-slider__title= title
+

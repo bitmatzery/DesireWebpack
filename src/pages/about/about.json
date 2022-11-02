@@ -1,0 +1,238 @@
+{
+    "header": {
+        "logo": {
+            "src": "img/logo/svg/logo.svg"
+        },
+        "itemsLeft": [
+            {
+                "text": "About",
+                "active": true
+            },
+            {
+                "text": "Gallery",
+                "more": [
+                    {
+                        "text": "Дополнительные пункты"
+                    },
+                    {
+                        "text": "Дополнительные пункты большие"
+                    },
+                    {
+                        "text": "Дополнительные пункты"
+                    }
+                ]
+            }
+        ],
+        "itemsRight": [
+            {
+                "text": "Blog"
+            },
+            {
+                "text": "Contact"
+            }
+        ]
+    },
+    "footer": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ],
+        "menu": [
+            {
+                "items": [
+                    {
+                        "text": "Facebook",
+                        "alt": "facebook_logo",
+                        "src": "image/facebook.svg",
+                        "href": "https://www.facebook.com/",
+                        "social": "facebook"
+                    },
+                    {
+                        "text": "Instagram",
+                        "alt": "instagram_logo",
+                        "src": "image/instagram.svg",
+                        "href": "https://www.instagram.com/",
+                        "social": "instagram"
+                    },
+                    {
+                        "text": "Pinterest",
+                        "alt": "pinterest_logo",
+                        "src": "image/pinterest.svg",
+                        "href": "https://www.pinterest.com/",
+                        "social": "pinterest"
+                    },
+                    {
+                        "text": "WhatsApp",
+                        "alt": "whatsapp_logo",
+                        "src": "image/whatsapp.svg",
+                        "href": "https://www.whatsapp.com/",
+                        "social": "whatsapp"
+                    },
+                    {
+                        "text": "Youtube",
+                        "alt": "youtube_logo",
+                        "src": "image/youtube.svg",
+                        "href": "https://www.youtube.com/",
+                        "social": "youtube"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "text": "Delivery"
+                    },
+                    {
+                        "text": "FAQ"
+                    },
+                    {
+                        "text": "Help"
+                    },
+                    {
+                        "text": "More About Us"
+                    }
+                ]
+            }
+        ]
+    },
+    "footerMobile": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ]
+    },
+    "collection": {
+        "items": [
+            {
+                "images": {
+                    "src": "img/content/jpg/collection-1.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust",
+                "text": "Living room furntiture | Chair"
+            },
+            {
+                "images": {
+                    "src": "img/content/jpg/collection-2.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust",
+                "text": "Living room furntiture | Chair"
+            },
+            {
+                "images": {
+                    "src": "img/content/jpg/collection-3.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust",
+                "text": "Living room furntiture | Chair"
+            },
+            {
+                "images": {
+                    "src": "img/content/jpg/collection-4.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust",
+                "text": "Living room furntiture | Chair"
+            },
+            {
+                "images": {
+                    "src": "img/content/jpg/collection-5.jpg",
+                    "alt": "images"
+                },
+                "title": "Truffault literally trust",
+                "text": "Living room furntiture | Chair"
+            }
+        ]
+    },
+    "aboutPrev": {
+        "prevTitle": "About Us",
+        "title": "Balance in the simple through an informed marriage of design, functional and craft",
+        "text": [
+            {
+                "p": "Vexillologist vape microdosing freegan pork belly deep v direct trade cray single-origin coffee street art. Viral shaman mustache master cleanse, pour-over affogato poutine copper mug marfa fanny pack normcore. Lo-fi pop-up banjo portland, echo park hammock chillwave literally post-ironic ramps subway tile kitsch. Shaman tumblr fixie echo park street art. Enamel pin vaporware wayfarers, organic succulents hella sustainable cardigan."
+            },
+            {
+                "p": "Sustainable hot chicken skateboard, dreamcatcher meggings actually squid. Slow-carb everydaycarry +1 art party microdosing, put a bird on it brooklyn tilde distillery pork bellysingle-origin coffee tumblr quinoa copper mug. Affogato cold-pressed unicorn, viralintelligentsia leggings raw denim kombucha tote bag messenger bag chambray vape coloring bookscenester. Activated charcoal wayfarers church-key tote bag synth brunch. Retro cornhole"
+            }
+        ],
+        "images": {
+            "src": "img/about/svg/play-button.svg",
+            "alt": "play button"
+        }
+    },
+    "inspiration": {
+        "images": {
+            "src": "img/about/png/inspiration-decor.png",
+            "alt": "images"
+        },
+        "title": "Our Inspiration in details",
+        "text": "Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth helvetica jean shorts. Fanny pack church-key cornhole, banh mi thundercats gochujang keytar.",
+        "items": [
+            {
+                "headline": "Design and technical drawings",
+                "num": "80%"
+            },
+            {
+                "headline": "Measurments",
+                "num": "70%"
+            },
+            {
+                "headline": "Furniture functionality analysis",
+                "num": "75%"
+            },
+            {
+                "headline": "Interior visualization",
+                "num": "40%"
+            }
+        ],
+        "partners": [
+            {
+                "src": "img/partners/svg/partner_1.svg",
+                "alt": "partner"
+            },
+            {
+                "src": "img/partners/svg/partner_2.svg",
+                "alt": "partner"
+            },
+            {
+                "src": "img/partners/svg/partner_1.svg",
+                "alt": "partner"
+            },
+            {
+                "src": "img/partners/svg/partner_2.svg",
+                "alt": "partner"
+            },
+            {
+                "src": "img/partners/svg/partner_1.svg",
+                "alt": "partner"
+            }
+        ]
+    }
+}

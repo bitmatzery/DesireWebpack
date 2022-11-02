@@ -1,0 +1,22 @@
+@import '~@/styles/main';
+// Подключение стилей components
+@import '~@/components/header/header';
+@import '~@/components/footer/footer';
+@import "~@/components/breadcrumbs/breadcrumbs";
+@import '~@/components/about-prev/about-prev';
+@import '~@/components/collection/collection';
+@import '~@/components/inspiration/inspiration';
+
+.rightside-menu {
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+.button {
+    height: auto;
+}

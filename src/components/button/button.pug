@@ -1,0 +1,29 @@
+//- style  -- filled or outlined
+//- size   -- small or long
+//- text   -- button caption text
+//- href   -- url address link format https://www.google.com/
+//- grow   -- boolean  if true width: 100%
+//- images -- yes or no
+//- src & alt -- of images
+mixin button({ nameClass, dataFilter = "none", style = "none", size, text, href, type = "button", grow = false, images, src, alt})
+  -
+    let classList = []
+    classList.push(`${nameClass}`)
+    classList.push(`${dataFilter}`)
+    classList.push(`button_theme-${style}`)
+    if(size) classList.push(`button_size-${size}`)
+    if(grow) classList.push('button_grow')
+  if (href)
+    a.button(class = classList href = href data-filter = dataFilter)
+      if(images)
+        img.images(src=src, alt=alt)
+      span.button__text= text
+      if size === "long"
+        span.button__icon arrow_forward
+  else
+    button.button(class = classList type = type data-filter = dataFilter)
+      if(images)
+        img.images(src=src, alt=alt)
+      span.button__text= text
+      if size === "long"
+        span.button__icon arrow_forward

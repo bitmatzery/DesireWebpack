@@ -1,0 +1,25 @@
+extends ../../layouts/main/main
+include ../../components/header/header
+include ../../components/footer/footer
+include ../../components/breadcrumbs/breadcrumbs
+include ../../components/about-prev/about-prev
+include ../../components/inspiration/inspiration
+include ../../components/collection/collection
+
+block variables
+    -
+        const title = 'About'
+        const keywords = 'about'
+        const description = 'About'
+
+block content
+    - const { header, footer, collection, aboutPrev, inspiration } = require('./about.json');
+    .wrapper
+        +header(header)
+
+        +breadcrumbs()
+        +about-prev(aboutPrev)
+        +inspiration(inspiration)
+        +collection(collection)
+
+        +footer(footer)

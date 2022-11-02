@@ -1,0 +1,20 @@
+include ../menu/menu
+include ../button/button
+include ../rightside-menu/rightside-menu 
+
+mixin header({ logo, itemsLeft, itemsRight })
+  - let count = 0; 
+  .header
+    .container
+      .header__inner
+        +menu({items:itemsLeft})
+        a.header__logo-link(href = "./index.html")
+          img.header__logo-img(src = logo.src, alt = logo.alt || "logo")
+        +menu({items:itemsRight})
+        button.header__btn-menu
+          while count < 3
+            span
+            - count++
+        +rightside_menu
+        button.header__btn
+          img(src="img/icons/svg/icon_menu.svg", alt="")

@@ -1,0 +1,19 @@
+include ../button/button
+
+mixin gallery-block({ itemsMix })
+    .gallery.wrapper
+        .gallery__buttons
+            +button({nameClass:"gallery__btn", dataFilter:".bedroom", text:"Bedroom furniture",     alt:""})
+            +button({nameClass:"gallery__btn", dataFilter:".living",  text:"Living room furniture", alt:""})
+            +button({nameClass:"gallery__btn", dataFilter:".office",  text:"Office furniture",      alt:""})
+            +button({nameClass:"gallery__btn", dataFilter:".dining",  text:"Dining room furniture", alt:""})
+            +button({nameClass:"gallery__btn", dataFilter:".chair",   text:"Chair",                 alt:""})
+
+        .gallery__inner
+            each item in itemsMix
+                - const { nameClass, images } = item
+                div(class=`gallery__items mix ${nameClass}`)
+                    each elem in images
+                        - const { src, alt } = elem
+                        a.gallery__item
+                            img(src = src, alt = alt || "images")

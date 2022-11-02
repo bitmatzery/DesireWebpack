@@ -1,0 +1,9 @@
+mixin navigation-links( { prev, next, hrefP, hrefN, iconleft, iconRight })
+    .blog-one__links
+        a.blog-one__link.blog-one__link-prev(href= hrefP)
+            span= prev
+            img.blog-one__prev-icon(src = iconleft.src, alt = iconleft.alt)
+        a.blog-one__link.blog-one__link-next(href= hrefN)
+            span= next
+            img.blog-one__next-icon(src = iconRight.src, alt = iconRight.alt)
+                    

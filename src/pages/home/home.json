@@ -1,0 +1,401 @@
+{
+  "header": {
+    "logo": {
+      "src": "img/logo/svg/logo.svg"
+    },
+    "itemsLeft": [
+      {
+        "text": "About",
+        "active": true
+      },
+      {
+        "text": "Gallery",
+        "more": [
+          {
+            "text": "Дополнительные пункты"
+          },
+          {
+            "text": "Дополнительные пункты большие"
+          },
+          {
+            "text": "Дополнительные пункты"
+          }
+        ]
+      }
+    ],
+    "itemsRight": [
+      {
+        "text": "Blog"
+      },
+      {
+        "text": "Contact"
+      }
+    ]
+  },
+  "footer": {
+    "social": [
+      {
+        "name": "twitter",
+        "alt": "twitter_logo",
+        "href": "https://www.twitter.com/"
+      },
+      {
+        "name": "facebook",
+        "alt": "facebook_logo",
+        "href": "https://www.facebook.com/"
+      },
+      {
+        "name": "instagram",
+        "alt": "instagram_logo",
+        "href": "https://www.instagram.com/"
+      }
+    ],
+    "menu": [
+      {
+        "items": [
+          {
+            "text": "Facebook",
+            "alt": "facebook_logo",
+            "src": "image/facebook.svg",
+            "href": "https://www.facebook.com/",
+            "social": "facebook"
+          },
+          {
+            "text": "Instagram",
+            "alt": "instagram_logo",
+            "src": "image/instagram.svg",
+            "href": "https://www.instagram.com/",
+            "social": "instagram"
+          },
+          {
+            "text": "Pinterest",
+            "alt": "pinterest_logo",
+            "src": "image/pinterest.svg",
+            "href": "https://www.pinterest.com/",
+            "social": "pinterest"
+          },
+          {
+            "text": "WhatsApp",
+            "alt": "whatsapp_logo",
+            "src": "image/whatsapp.svg",
+            "href": "https://www.whatsapp.com/",
+            "social": "whatsapp"
+          },
+          {
+            "text": "Youtube",
+            "alt": "youtube_logo",
+            "src": "image/youtube.svg",
+            "href": "https://www.youtube.com/",
+            "social": "youtube"
+          }
+        ]
+      },
+      {
+        "items": [
+          {
+            "text": "Delivery"
+          },
+          {
+            "text": "FAQ"
+          },
+          {
+            "text": "Help"
+          },
+          {
+            "text": "More About Us"
+          }
+        ]
+      }
+    ]
+  },
+  "footerMobile": {
+    "social": [
+      {
+        "name": "twitter",
+        "alt": "twitter_logo",
+        "href": "https://www.twitter.com/"
+      },
+      {
+        "name": "facebook",
+        "alt": "facebook_logo",
+        "href": "https://www.facebook.com/"
+      },
+      {
+        "name": "instagram",
+        "alt": "instagram_logo",
+        "href": "https://www.instagram.com/"
+      }
+    ]
+  },
+  "slider": {
+    "slides": [
+      {
+        "bg": {
+          "src": "img/content/png/slider-img.png",
+          "alt": "images"
+        },
+        "title": "Furniture collection",
+        "text": " Deep v you probably haven't heard of them banh mi synth actually affogato. Aestheticlyft ethical drinking vinegar austint"
+      },
+      {
+        "bg": {
+          "src": "img/content/png/slider-img.png",
+          "alt": "images"
+        },
+        "title": "Furniture collection",
+        "text": " Deep v you probably haven't heard of them banh mi synth actually affogato. Aestheticlyft ethical drinking vinegar austint"
+      },
+      {
+        "bg": {
+          "src": "img/content/png/slider-img.png",
+          "alt": "images"
+        },
+        "title": "Furniture collection",
+        "text": " Deep v you probably haven't heard of them banh mi synth actually affogato. Aestheticlyft ethical drinking vinegar austint"
+      }
+    ]
+  },
+  "newCollection": {
+    "title": "Furniture new collection",
+    "text": "Deep v you probably haven't heard of them banh mi synth actually affogato. Aestheticlyft ethical drinking vinegar austint"
+  },
+  "collection": {
+    "items": [
+      {
+        "images": {
+          "src": "img/content/jpg/collection-1.jpg",
+          "alt": "images"
+        },
+        "title": "Truffault literally trust",
+        "text": "Living room furntiture | Chair"
+      },
+      {
+        "images": {
+          "src": "img/content/jpg/collection-2.jpg",
+          "alt": "images"
+        },
+        "title": "Truffault literally trust",
+        "text": "Living room furntiture | Chair"
+      },
+      {
+        "images": {
+          "src": "img/content/jpg/collection-3.jpg",
+          "alt": "images"
+        },
+        "title": "Truffault literally trust",
+        "text": "Living room furntiture | Chair"
+      },
+      {
+        "images": {
+          "src": "img/content/jpg/collection-4.jpg",
+          "alt": "images"
+        },
+        "title": "Truffault literally trust",
+        "text": "Living room furntiture | Chair"
+      },
+      {
+        "images": {
+          "src": "img/content/jpg/collection-5.jpg",
+          "alt": "images"
+        },
+        "title": "Truffault literally trust",
+        "text": "Living room furntiture | Chair"
+      }
+    ]
+  },
+  "decor": {
+    "bg": {
+      "src": "img/content/jpg/decor-bg.jpg",
+      "alt": "images"
+    },
+    "title": "Aesthetic ethical drinking",
+    "text": "Deep v you probably haven't heard of them banh mi synth actually affogato. Aestheticlyft ethical drinking vinegar austint"
+  },
+  "worksPath": {
+    "items": [
+      {
+        "nameClass": "consultation",
+        "images": {
+          "src": "img/icons/svg/measurements-tape.svg",
+          "alt": "icon"
+        },
+        "title": "Designer Consultation",
+        "text": "Kinofolk scenester authentic craft beer truffault irony intelligentsia VOLO lomo buswick coloring book. Semiotics man bun venmo viral cliche."
+      },
+      {
+        "nameClass": "production",
+        "images": {
+          "src": "img/icons/svg/sofa.svg",
+          "alt": "icon"
+        },
+        "title": "Production",
+        "text": "Everyday carry actually neutra authentic kogi shabby chic"
+      }
+    ],
+    "item": {
+      "nameClass": "measurements",
+      "images": {
+        "src": "img/icons/svg/graphic-tool.svg",
+        "alt": "icon"
+      },
+      "title": "Measurements",
+      "text": "Intelligentsia VOLO lomo buswick coloring book. Semiotics man bun venmo viral cliche."
+    }
+  },
+  "galleryBlock": {
+    "itemsMix": [
+      {
+        "nameClass": "bedroom",
+        "images": [
+          {
+            "src": "img/gallery/jpg/1.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/2.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/3.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/4.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/5.jpg",
+            "alt": "images"
+          }
+        ]
+      },
+      {
+        "nameClass": "living",
+        "images": [
+          {
+            "src": "img/gallery/jpg/1.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/2.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/3.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/4.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/5.jpg",
+            "alt": "images"
+          }
+        ]
+      },
+      {
+        "nameClass": "office",
+        "images": [
+          {
+            "src": "img/gallery/jpg/1.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/2.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/3.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/4.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/5.jpg",
+            "alt": "images"
+          }
+        ]
+      },
+      {
+        "nameClass": "dining",
+        "images": [
+          {
+            "src": "img/gallery/jpg/1.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/2.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/3.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/4.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/5.jpg",
+            "alt": "images"
+          }
+        ]
+      },
+      {
+        "nameClass": "chair",
+        "images": [
+          {
+            "src": "img/gallery/jpg/1.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/2.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/3.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/4.jpg",
+            "alt": "images"
+          },
+          {
+            "src": "img/gallery/jpg/5.jpg",
+            "alt": "images"
+          }
+        ]
+      }
+    ]
+  },
+  "blogBox": {
+    "title": "More inspiration ideas in our blog",
+    "items": [
+      {
+        "href": "#",
+        "images": {
+          "src": "img/blog/jpg/1.jpg",
+          "alt": "images"
+        },
+        "date": "March 12, 2020 | ",
+        "author": "by Ann Summers | ",
+        "theme": "Inrerior",
+        "title": "Listicle actually selvage activated charcoal for the drinking venegar"
+      },
+      {
+        "href": "#",
+        "images": {
+          "src": "img/blog/jpg/2.jpg",
+          "alt": "images"
+        },
+        "date": "September 28, 2020 | ",
+        "author": "by Finnagan Morningstar | ",
+        "theme": "Dining room inrerior",
+        "title": "Red selfies edison bulb four dollar toast humblebrag"
+      }
+    ]
+  }
+}

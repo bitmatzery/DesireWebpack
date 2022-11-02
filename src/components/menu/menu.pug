@@ -1,0 +1,10 @@
+include ../button/button
+
+mixin menu({items})
+  nav.menu
+    ul.menu__list
+      if items
+        each item in items
+          - const {text, href, active} = item
+          li.menu__list-item
+            a.menu__list-link(class = active ? "menu__list-link--active" : "", href = href || "./index.html")= text

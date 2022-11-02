@@ -1,0 +1,33 @@
+include ../button/button
+include ../tags/tags
+
+mixin aside({ category, posts, tags, social })
+    aside.aside
+        form.aside__search
+            input.aside__search-input(type="text", placeholder="Search")
+            +button({nameClass:"aside__search-btn", type:"submit", images:true, src:"img/icons/svg/search.svg", alt:"images"})
+        .blog__category
+            h6.blog__category-title= category.title
+            ul.blog__category-list
+                each item in category.items
+                    - const { link, href } = item
+                    li.blog__category-item
+                        a.blog__category-link(href= href)= link
+        .recent-posts
+            h6.recent-posts__title= posts.title
+            ul.recent-posts__list
+                each item in posts.items
+                    - const { title, date, author, href } = item
+                    li.recent-posts__item
+                        a.recent-posts__item-title(href= href)= title
+                        span.recent-posts__date= date
+                        a.recent-posts__author= author
+
+        +tags({ title:tags.title, items:tags.items })
+
+        ul.blog__social
+            each item in social
+                - const { src, alt, href } = item
+                li.blog__social-item
+                    a.blog__social-link(href= href)
+                        img.blog__social-link(src= src, alt= alt)

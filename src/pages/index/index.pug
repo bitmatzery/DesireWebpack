@@ -1,0 +1,15 @@
+extends ../../layouts/main/main
+include ../../components/button/button
+
+block variables
+  -
+    const title = 'Demo | Pages'
+    const keywords = 'демо'
+    const description = 'демо'
+
+block content
+  img.autograph_logo(src="img/favicon/bmty.png" alt="bmty")
+  - const { buttons } = require('./index.json')
+  .index
+    each button in buttons
+      +button(button)

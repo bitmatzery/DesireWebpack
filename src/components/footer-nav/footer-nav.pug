@@ -1,0 +1,13 @@
+mixin footerNav({ title , items })
+  .footer-nav
+    .footer-nav__title= title
+    ul.footer-nav__items
+      each item in items
+        - const { href , text, alt, social } = item
+          li.footer-nav__item
+            if social
+              a(class="footer-nav__item-link-social footer-nav__item-link-social" + "--" + social, href = href || "./index.html")= text
+            else
+              a.footer-nav__item-link(href = href || "./index.html")= text
+            
+

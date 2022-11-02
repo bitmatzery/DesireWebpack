@@ -1,0 +1,6 @@
+mixin article-slider( { slides } )
+    .blog__item.article-slider
+        .article-slider__box
+            each slide in slides
+                - const { src , alt } = slide 
+                img.article-slider__img(src= src, alt= alt || "images")

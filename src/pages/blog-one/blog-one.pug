@@ -1,0 +1,41 @@
+extends ../../layouts/main/main
+include ../../components/header/header
+include ../../components/footer/footer
+include ../../components/breadcrumbs/breadcrumbs
+include ../../components/blog-box/blog-box
+include ../../components/blog-block/blog-block
+include ../../components/aside/aside
+include ../../components/blockquote/blockquote
+include  ../../components/tags/tags
+include  ../../components/navigation-links/navigation-links
+include  ../../components/comments/comments
+include  ../../components/answear-form/answear-form
+
+block variables
+    -
+        const title = 'Blog-one'
+        const keywords = 'blog-one'
+        const description = 'Blog-one'
+
+block content
+    - const { header, footer, blogBlock, aside, blockquote, blogInfo, tages, navigationLinks, comments } = require('./blog-one.json');
+    .wrapper
+        +header(header)
+
+        +breadcrumbs()
+        section.blog.blog-one
+            .container
+                .blog__inner
+                    .blog__items
+                        +blog-box(blogBlock)
+                    +aside(aside)
+                +blockquote(blockquote)
+                .blog__items
+
+                    +blog-box(blogInfo)
+                    +tags({ title:tages.title, items:tages.items })
+                    +navigation-links(navigationLinks)
+                    +comments(comments)
+                    +answear-form()
+
+    +footer(footer)

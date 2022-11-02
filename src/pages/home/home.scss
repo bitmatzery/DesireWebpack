@@ -1,0 +1,26 @@
+@import '~@/styles/main';
+// Подключение стилей components
+@import '~@/components/header/header';
+@import '~@/components/footer/footer';
+@import '~@/components/slider/slider';
+@import '~@/components/new-collection/new-collection';
+@import '~@/components/collection/collection';
+@import '~@/components/decor/decor';
+@import '~@/components/works-path/works-path';
+@import '~@/components/gallery-block/gallery-block';
+@import '~@/components/blog-box/blog-box';
+
+.rightside-menu {
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+.button {
+    height: auto;
+}

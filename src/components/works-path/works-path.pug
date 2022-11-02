@@ -1,0 +1,18 @@
+mixin works-path({items, item})
+    section.works-path
+        .container
+            h3.works-path__title
+                | How it works
+            .works-path__items
+                .works-path__items-box
+                    each itemBox in items
+                        - const { nameClass, images, title, text } = itemBox
+                        div(class=`works-path__item works-path__item--${nameClass}`)
+                            img.works-path__item-img(src = images.src, alt = images.alt || "icon")
+                            h6.works-path__item-title= title
+                            p.works-path__item-text= text
+
+                div(class=`works-path__item works-path__item--${item.nameClass}`)
+                    img.works-path__item-img(src = item.images.src, alt = item.images.alt || "icon")
+                    h6.works-path__item-title= item.title
+                    p.works-path__item-text= item.text

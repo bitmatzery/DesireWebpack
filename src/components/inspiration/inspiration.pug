@@ -1,0 +1,22 @@
+mixin inspiration({ images, title, text, items, partners })
+    section.inspiration
+        .inspiration__inner
+            img.inspiration__images(src= images.src, alt= images.alt || "images")
+            .inspiration__content
+                h3.inspiration__title= title
+                p.inspiration__text= text
+
+                ul.inspiration__list
+                    each item in items
+                        - const { num, headline } = item
+                        li.inspiration__item
+                            .inspiration__item-content
+                                p.inspiration__item-headline= headline
+                                p.inspiration__num= num
+                            .inspiration__line(style="width: " + num)
+
+    .partners
+        .partners__items
+            each item in partners
+                - const { src, alt } = item
+                    img.partners__item(src= src, alt= alt)

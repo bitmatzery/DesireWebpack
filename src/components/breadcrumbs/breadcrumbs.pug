@@ -1,0 +1,10 @@
+mixin breadcrumbs 
+    section.breadcrumbs
+        .container
+            ul.breadcrumbs__list
+                each name in ['Home', 'About']
+                    li.breadcrumbs__item
+                        if name == 'About'
+                            a(class = "breadcrumbs__link breadcrumbs__link--js", href="#")= name
+                        else
+                            a(class = "breadcrumbs__link", href="#")= name

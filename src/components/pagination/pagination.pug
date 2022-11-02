@@ -1,0 +1,11 @@
+mixin pagination( { href, iconleft, iconRight, list } )
+    .pagination
+        a.pagination__arrow.pagination__arrow--disabled(href= href)
+            img.pagination__arrow-icon(src = iconleft.src, alt = iconleft.alt)
+        ul.pagination__list
+            each el in list
+                - const { nameClass, href, num } = el
+                li.pagination__list-item
+                    a(class= nameClass, href= href)= num
+        a.pagination__arrow(href= href)
+            img.pagination__arrow-icon(src = iconRight.src, alt = iconRight.alt)

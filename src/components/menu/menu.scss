@@ -1,0 +1,39 @@
+@import '~@/styles/mixin';
+@import '~@/styles/variables';
+@import '../button/button';
+
+.menu {
+  padding-right: 15px;
+
+  &__list {
+      display: flex;
+  }
+
+  &__list-item {
+      padding-left: 35px;
+      padding-right: 45px;
+
+  }
+
+  &__list-link {
+    @include font-bold-title($font-size-normal, $text-color-translucent, 17px);
+
+    color: rgba($color: #545656, $alpha: 0.9);
+    line-height: 22px;
+  }
+
+  &__list-link--active {
+      padding-bottom: 4px;
+      position: relative;
+      &::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          height: 2px;
+          border-radius: 1px;
+          background-color: rgba($black-title, .7);
+      }
+  }
+}

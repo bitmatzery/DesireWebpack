@@ -1,0 +1,30 @@
+$content-width: 1140px;
+$contentent-max-width: 1920px;
+$container-offset: 15px;
+$container-width: ($content-width + ($container-offset * 2));
+$container-max-width: ($contentent-max-width + ($container-offset * 2));
+
+$black-title: #363838;
+$black-default: #5A5A5A;
+$gray-50:  #dfdfdf;
+$text-color-haeder: rgba($color: #545656, $alpha: 0.9);
+$text-color-social: #707070;
+$white: white;
+
+$text-color-main: rgb(31 32 65 / 100%);
+$text-color-secondary: rgb(31 32 65 / 75%);
+$text-color-translucent: rgb(31 32 65 / 50%);
+$transparent_black: rgb(31 32 65 / 25%);
+$shadow-color: rgb(31 32 65 / 10%);
+$green: #6fcf97;
+$green-gradient: linear-gradient(180deg, #6fcf97 0%, #66d2ea 100%);
+$purple: #bc9cff;
+$purple-gradient: linear-gradient(180deg, #bc9cff 0%, #8ba4f9 100%);
+$box-shadow-bold: 0 10px 20px rgb(31 32 65 / 5%);
+$box-shadow-light: 0 0 25px rgb(0 0 0 / 20%);
+$font-size-huge: 48px;
+$font-size-big: 24px;
+$font-size-medium: 19px;
+$font-size-normal: 16px;
+$font-size-small: 14px;
+$font-size-little: 12px;

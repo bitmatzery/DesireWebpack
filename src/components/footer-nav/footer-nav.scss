@@ -1,0 +1,70 @@
+@import '~@/styles/mixin';
+@import '~@/styles/variables';
+
+.footer-nav {
+  &__title {
+    font-weight: bold;
+    font-size: $font-size-small;
+    line-height: 15px;
+    color: $text-color-main;
+  }
+
+  &__items {
+    list-style: none;
+    font-size: $font-size-small;
+    line-height: 27px;
+    font-weight: 600;
+    color: $text-color-social;
+  }
+
+  &__item {
+    margin-bottom: 15px;
+
+    &-link {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    &-link-social {
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: -25px;
+        width: 16px;
+        height: 16px;
+      }
+    }
+
+    &-link-social--facebook::before {
+      background-image: url('/components/footer-nav/img/facebook.png');
+    }
+
+    &-link-social--instagram::before {
+      background-image: url('/components/footer-nav/img/instagram.png');
+      width: 14px;
+      height: 15px;
+      top: 3px;
+    }
+
+    &-link-social--pinterest::before {
+      background-image: url('/components/footer-nav/img/pinterest.png');
+    }
+
+    &-link-social--whatsapp::before {
+      background-image: url('/components/footer-nav/img/whatsapp.png');
+      width: 14px;
+      height: 14px;
+    }
+
+    &-link-social--youtube::before {
+      background-image: url('/components/footer-nav/img/youtube.png');
+      width: 18px;
+      top: 3px;
+      height: 12px;
+    }
+  }
+}

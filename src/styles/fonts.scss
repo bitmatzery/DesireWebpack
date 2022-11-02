@@ -1,0 +1,11 @@
+@import '~@/styles/mixin.scss';
+
+@include font-face('Montserrat', 'montserrat-regular');
+@include font-face('Montserrat', 'montserrat-bold', bold);
+@include font-face(
+  'Material Icons Outlined',
+  'material-icons-outlined-regular'
+);
+@include font-face('Material Icons', 'material-icons-regular');
+
+@include font-face('OpenSans', 'OpenSans-Regular');

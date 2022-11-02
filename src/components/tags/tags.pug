@@ -1,0 +1,7 @@
+mixin tags({ title, items })
+    .blog__tags
+        h6.blog__tags-title= title
+        .tags-link
+            each item in items
+                - const { link, href } = item
+                a.blog__tags-link(href= href)= link

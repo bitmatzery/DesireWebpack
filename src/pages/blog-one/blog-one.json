@@ -1,0 +1,329 @@
+{
+    "header": {
+        "logo": {
+            "src": "img/logo/svg/logo.svg"
+        },
+        "itemsLeft": [
+            {
+                "text": "About",
+                "active": true
+            },
+            {
+                "text": "Gallery",
+                "more": [
+                    {
+                        "text": "Дополнительные пункты"
+                    },
+                    {
+                        "text": "Дополнительные пункты большие"
+                    },
+                    {
+                        "text": "Дополнительные пункты"
+                    }
+                ]
+            }
+        ],
+        "itemsRight": [
+            {
+                "text": "Blog"
+            },
+            {
+                "text": "Contact"
+            }
+        ]
+    },
+    "footer": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ],
+        "menu": [
+            {
+                "items": [
+                    {
+                        "text": "Facebook",
+                        "alt": "facebook_logo",
+                        "src": "image/facebook.svg",
+                        "href": "https://www.facebook.com/",
+                        "social": "facebook"
+                    },
+                    {
+                        "text": "Instagram",
+                        "alt": "instagram_logo",
+                        "src": "image/instagram.svg",
+                        "href": "https://www.instagram.com/",
+                        "social": "instagram"
+                    },
+                    {
+                        "text": "Pinterest",
+                        "alt": "pinterest_logo",
+                        "src": "image/pinterest.svg",
+                        "href": "https://www.pinterest.com/",
+                        "social": "pinterest"
+                    },
+                    {
+                        "text": "WhatsApp",
+                        "alt": "whatsapp_logo",
+                        "src": "image/whatsapp.svg",
+                        "href": "https://www.whatsapp.com/",
+                        "social": "whatsapp"
+                    },
+                    {
+                        "text": "Youtube",
+                        "alt": "youtube_logo",
+                        "src": "image/youtube.svg",
+                        "href": "https://www.youtube.com/",
+                        "social": "youtube"
+                    }
+                ]
+            },
+            {
+                "items": [
+                    {
+                        "text": "Delivery"
+                    },
+                    {
+                        "text": "FAQ"
+                    },
+                    {
+                        "text": "Help"
+                    },
+                    {
+                        "text": "More About Us"
+                    }
+                ]
+            }
+        ]
+    },
+    "footerMobile": {
+        "social": [
+            {
+                "name": "twitter",
+                "alt": "twitter_logo",
+                "href": "https://www.twitter.com/"
+            },
+            {
+                "name": "facebook",
+                "alt": "facebook_logo",
+                "href": "https://www.facebook.com/"
+            },
+            {
+                "name": "instagram",
+                "alt": "instagram_logo",
+                "href": "https://www.instagram.com/"
+            }
+        ]
+    },
+    "blogBlock": {
+        "items": [
+            {
+                "href": "#",
+                "images": {
+                    "src": "img/blog/jpg/big-1.jpg",
+                    "alt": "images"
+                },
+                "date": "August 15, 2020 | ",
+                "author": "by Ann Summers | ",
+                "theme": "Bedroom Furniture",
+                "title": "Red selfies edison bulb four dollar toast design humblebrag for the furniture",
+                "text": "Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer.Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mugiPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke.Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table.Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickledcray stumptown 8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beertruffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viralcliche. Tousled yr williamsburg austin edison bulb cloud bread vegan street art. Locavore foodtruck trust fund palo santo asymmetrical, franzen deep v marfa kogi whatever swag pop-up seitan."
+            }
+        ]
+    },
+    "aside": {
+        "category": {
+            "title": "Categories",
+            "items": [
+                {
+                    "link": "Dining room (1)",
+                    "href": "#"
+                },
+                {
+                    "link": "Office furniture (12)",
+                    "href": "#"
+                },
+                {
+                    "link": "Simple interiror design (2)",
+                    "href": "#"
+                },
+                {
+                    "link": "Design (4)",
+                    "href": "#"
+                },
+                {
+                    "link": "Bedroom Furniture (1)",
+                    "href": "#"
+                }
+            ]
+        },
+        "posts": {
+            "title": "Recent Posts",
+            "items": [
+                {
+                    "title": "Cred selfies edison bulb four dollar toast humblebrag",
+                    "date": "August 10, 2020 | ",
+                    "author": "by Ann Summers | ",
+                    "href": "#"
+                },
+                {
+                    "title": "Semiotics fixie four dollar toast, next level woke scenester direct trade photo booth",
+                    "date": "September 30, 2020 | ",
+                    "author": "by Ann Summers | ",
+                    "href": "#"
+                },
+                {
+                    "title": "Cred selfies edison bulb four dollar toast humblebrag",
+                    "date": "May 2, 2020 | ",
+                    "author": "by Ann Summers | ",
+                    "href": "#"
+                }
+            ]
+        },
+        "tags": {
+            "title": "Tages",
+            "items": [
+                {
+                    "link": "Dining room furniture",
+                    "href": "#"
+                },
+                {
+                    "link": "Chair",
+                    "href": "#"
+                },
+                {
+                    "link": "Table",
+                    "href": "#"
+                },
+                {
+                    "link": "Bedroom",
+                    "href": "#"
+                },
+                {
+                    "link": "Office Furniture",
+                    "href": "#"
+                }
+            ]
+        },
+        "social": [
+            {
+                "text": "Facebook",
+                "alt": "facebook_logo",
+                "src": "img/social-icons/svg/facebook.svg",
+                "href": "https://www.facebook.com/",
+                "social": "facebook"
+            },
+            {
+                "text": "Instagram",
+                "alt": "instagram_logo",
+                "src": "img/social-icons/svg/instagram.svg",
+                "href": "https://www.instagram.com/",
+                "social": "instagram"
+            },
+            {
+                "text": "Pinterest",
+                "alt": "pinterest_logo",
+                "src": "img/social-icons/svg/pinterest.svg",
+                "href": "https://www.pinterest.com/",
+                "social": "pinterest"
+            },
+            {
+                "text": "WhatsApp",
+                "alt": "whatsapp_logo",
+                "src": "img/social-icons/svg/whatsapp.svg",
+                "href": "https://www.whatsapp.com/",
+                "social": "whatsapp"
+            },
+            {
+                "text": "Youtube",
+                "alt": "youtube_logo",
+                "src": "img/social-icons/svg/youtube.svg",
+                "href": "https://www.youtube.com/",
+                "social": "youtube"
+            }
+        ]
+    },
+    "blockquote": {
+        "quote": "“Simplicity is not the goal. It is the by-product of a good idea and modest expectations”",
+        "author": "Paul Rand"
+    },
+    "blogInfo": {
+        "items": [
+            {
+                "text": "Af man bun copper mug iPhone enamel pin pug selvage hammock palo santo godard thundercats coloring bookyucciewoke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table. Yuccie portland kickstarter, readymade ramps humblebrag ennui banjo mumblecore vaporware pickled craystumptown8-bit mlkshk. Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsiaYOLOlomo bushwick coloring book. Semiotics man bun venmo viral cliche. Tousled yr williamsburg austin edisonbulbcloud bread vegan street art. Locavore food truck trust fund palo santo asymmetrical, franzen deep v marfakogiwhatever swag pop-up seitan."
+            }
+        ]
+    },
+    "blogBlockInfo2": {
+        "items": [
+            {
+                "href": "#",
+                "date": "August 18, 2020 | ",
+                "author": "by Ann Summers | ",
+                "theme": "Table Furniture",
+                "title": "Semiotics fixie four dollar toast, next level woke",
+                "text": "Everyday carry actually neutra authentic kogi shabby chic migas small batch craft beer.Literally williamsburg tote bag farm-to-table mustache ugh deep v irony. Af man bun copper mugiPhone enamel pin pug selvage hammock palo santo godard thundercats coloring book yuccie woke. Ugh pok pok taxidermy pabst enamel pin edison bulb farm-to-table"
+            }
+        ]
+    },
+    "tages": {
+        "title": "Tages",
+        "items": [
+            {
+                "link": "Bedroom furniture",
+                "href": "#"
+            },
+            {
+                "link": "Office furniture",
+                "href": "#"
+            },
+            {
+                "link": "Dining room furniture",
+                "href": "#"
+            },
+            {
+                "link": "Chair",
+                "href": "#"
+            }
+        ]
+    },
+    "navigationLinks": {
+        "prev": "Cred selfies edison bulb four dollar toast humblebrag",
+        "next": "Semiotics fixie four dollar toast, next level",
+        "hrefP": "#",
+        "hrefN": "#",
+        "iconleft": 
+            {
+                "src": "img/icons/svg/arrow-prev.svg",
+                "alt": "arrow icon"
+            },
+            "iconRight": 
+            {
+                "src": "img/icons/svg/arrow-next.svg",
+                "alt": "arrow icon"
+            }   
+    },
+    "comments": {
+        "title": "Comments:",
+        "avatar": {
+            "src": "img/blog/jpg/avatar.jpg",
+            "alt": "avatar"
+        },
+        "name": "Lea Brown",
+        "data": "August 12, 2020",
+        "text": "Tumeric tousled austin, kinfolk scenester authentic craft beer truffaut irony intelligentsia YOLO lomo bushwick coloring book. Semiotics man bun venmo viral cliche"
+    }
+
+}

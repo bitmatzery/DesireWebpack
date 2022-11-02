@@ -1,0 +1,59 @@
+@import '~@/styles/main';
+// стили для слайдера
+@import "../../../node_modules/slick-carousel/slick/slick";
+// Подключение стилей components
+@import '~@/components/header/header';
+@import '~@/components/footer/footer';
+@import "~@/components/breadcrumbs/breadcrumbs";
+@import '~@/components/blog-block/blog-block';
+@import '~@/components/blog-box/blog-box';
+@import '~@/components/aside/aside';
+@import '~@/components/blockquote/blockquote';
+@import '~@/components/popup/popup';
+@import '~@/components/article-slider/article-slider';
+@import '~@/components/pagination/pagination';
+
+
+.rightside-menu {
+    &__close {
+        background-color: transparent;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 50px;
+        margin-bottom: 60px;
+    }
+}
+
+.button {
+    height: auto;
+}
+
+.blog-box {
+    &__items {
+        display: block;
+    }
+}
+
+.article-slider {
+    &__arrow {
+        padding: 0;
+        border: none;
+        background: transparent;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 10;
+        cursor: pointer;
+    }
+
+    &__arrowleft {
+        left: 16px;
+    }
+
+    &__arrowright {
+        right: 16px;
+    }
+}
+
+

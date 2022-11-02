@@ -1,0 +1,18 @@
+//- name -- input name
+//- title -- text description
+//- placeholder
+//- form -- field form  boolean
+mixin field({ name, title , placeholder, form = false , type, text })
+  if form
+    form(class="field")
+      .field__title= title
+      .field__block
+        input.field__input-form.js-field__input(type = type || "text"
+          placeholder = placeholder, name = name)
+        button.field__btn(type = "submit", name = name)= text
+  else
+    .field
+      label.field__label= title
+        input.field__input.js-field__input(type = type || "text",
+          placeholder = placeholder name = name) 
+          

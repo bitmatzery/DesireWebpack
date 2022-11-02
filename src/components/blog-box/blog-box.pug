@@ -1,0 +1,19 @@
+mixin blog-box({ title, items }) 
+    section.blog-box
+        .container
+            h3.blog-box__title= title
+            .blog-box__items
+                each item in items
+                    .blog-box__item
+                        - const { images, href, date, author, theme, title, text} = item
+                        a.blog-box__img-link(href = href)
+                            if (images)
+                                img.blog-box__img(src = images.src,  alt = images.alt || "")
+                        .blog-box__links
+                            span.blog-box__date= date
+                            a.blog-box__author(href = href)= author
+                            a.blog-box__author(href = href)= theme
+                        a.blog-box__item-titlelink(href = href)
+                            h4.blog-box__item-title= title
+                        if (text)    
+                            p.blog__item-text= text
