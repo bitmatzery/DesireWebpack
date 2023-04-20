@@ -8,6 +8,15 @@ Thumbs.db
 .env.test.local
 .env.production.local
 
+# For GH Pages
+.babelrc
+.browserslistrc
+.editorconfig
+package.json
+postcss.config.js
+webpack.config.js
+# dist
+
 # Folders to ignore
 .CVS
 .git
@@ -16,8 +25,10 @@ Thumbs.db
 .svn
 package-lock.json
 build
-dist
+# dist
+src
 bower_components
+
 
 # Node.JS
 node_modules
